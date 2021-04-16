@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("IMG/ciel.jpg") no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.head{
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+.paragraph{
+    font-size: 18px;
+    color: white;
+}
+.formulaire{
+    background-color: rgb(19, 53, 69);
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    border: 3px #eff2f6 ridge ;
+    box-shadow: 4px 4px 4px 4px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+.question{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+   
+   
+}
+.genre{
+    margin-bottom: 20px;
+}
+.option{
+    margin-bottom: 20px;
+    padding: 6px 6px 6px;
+    border-radius: 4px ;
+    border: 3px rgb(54, 98, 116);
+    box-shadow: cadetblue;
+    width: 250px;
+    font-size: 16px;
+}
+.date{
+    margin-bottom: 20px;
+    padding: 6px 6px 6px;
+    border-radius: 4px ;
+    border: 3px rgb(54, 98, 116);
+    box-shadow: cadetblue;
+    height: 60%;
+    width: 250px;
+}
+.footer{
+    background-color: dodgerblue;
+    height: 10%;
+    width: 100% ;
+    position: absolute;
+    top: 600px;
+    /*left: 400px; */
+    font-size: 20px;
+}
+.pied{
+    text-align: center;
+    padding-top: 10px;
+}
